@@ -4,7 +4,7 @@ pipeline {
    stages {
       stage('checkout') {
          steps {
-            echo 'pulling from repository'
+            echo 'pulling from the repository'
          }
       }
        stage('build') {
